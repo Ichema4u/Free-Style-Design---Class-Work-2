@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Roboto", sans-serif;
+  letter-spacing: -0.75px;
+}
+
+.headersection {
+  width: 100%;
+  height: auto;
+  background-color: #adb6f1;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: fit-content;
+  height: auto;
+  padding: 1rem 4.5rem;
+}
+.right-nav-container {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 2rem;
+}
+.nav-links {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  column-gap: 1rem;
+  align-items: center;
+  justify-content: start;
+}
+.link-group-container {
+  width: fit-content;
+  height: auto;
+  padding: 0.5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.cta-container {
+  width: fit-content;
+  height: auto;
+}
+.cta-container button {
+  padding: 1.25rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 30rem;
+  background-color: #4c51bf;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.hero-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+.div-with-text {
+  width: 50%;
+  height: auto;
+  padding: 4rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 2rem;
+}
+
+.picture-container-right-side {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 3.5rem;
+}
+.image-container {
+  width: 80%;
+  height: 45%;
+  border-radius: 1rem;
+}
+.image-container img {
+  width: 80%;
+  height: 60%;
+  border-radius: 1rem;
+}
+.top-container-with-text {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+}
+.paragraph-text {
+  width: 100%;
+  height: auto;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: rgb(83, 81, 81);
+}
+.heading-text h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
